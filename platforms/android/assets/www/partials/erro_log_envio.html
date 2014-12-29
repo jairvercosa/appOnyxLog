@@ -1,0 +1,22 @@
+<div class="page-header">
+    <div class="container-fluid">
+        <h4>Erro Log</h4>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row-fluid" ng-controller="enviarController">
+        <p><i class="glyphicon glyphicon-info-sign"></i> Erros encontrados no último envio de dados ao servidor.</p>
+        <ul>
+            <li ng-repeat="erro in erros">
+                <ul>
+                    <li>Endereço: {{ erro.dados.endereco }}</li>
+                    <li>Produto: {{ erro.dados.produto }}</li>
+                    <li>Quantidade: {{ erro.dados.quant }}</li>
+                    <li class="text-red">Erro retornado: {{ erro.retorno }}</li>
+            </li>
+        </ul>
+        <div class="control-group">
+            <button class="btn btn-info" ng-click="onClickOk()"><i class="glyphicon glyphicon-arrow-left"></i> OK</button>
+        </div>
+    </div>
+</div>

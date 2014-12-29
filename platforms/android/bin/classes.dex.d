@@ -1,0 +1,22 @@
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes.dex : \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/BuildConfig.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/CordovaApp.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/R$array.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/R$attr.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/R$color.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/R$dimen.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/R$drawable.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/R$id.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/R$layout.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/R$menu.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/R$raw.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/R$string.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/R$xml.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/br/com/onyxti/onyxlog/R.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/com/phonegap/helloworld/CordovaApp.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/com/phonegap/plugins/barcodescanner/BarcodeScanner.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/org/pgsqlite/SQLitePlugin$1.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/org/pgsqlite/SQLitePlugin$2.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/classes/org/pgsqlite/SQLitePlugin.class \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/dexedLibs/classes-fc8db8b7b49fdf7b371d538918b0e059.jar \
+/Users/jairvercosa/Projects/apache/appOnyxLog/platforms/android/bin/dexedLibs/com.google.zxing.client.android.captureactivity-5201f74022720b59984213bf6d48aebb.jar \

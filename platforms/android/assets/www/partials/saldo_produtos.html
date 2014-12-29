@@ -1,0 +1,47 @@
+<div class="page-header">
+    <div class="container-fluid">
+        <h4>Saldos de produtos</h4>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="response_form alert alert-dismissable"><span></span></div>
+    <div class="row-fluid" ng-controller="saldosController">
+        <form class="form-horizontal">
+            <div class="control-group">
+                <label class="control-label" for="id_endereco">Endereço</label>
+                <div class="controls">
+                    <div class="col-xs-9 no-padding-left">
+                        <input type="text" id="id_endereco" maxlength="15" nome="endereco" class="form-control"/>
+                    </div>
+                    <div class="col-sx-3 no-padding-right">
+                        <button ng-click="onClickOpenScannerEnd()" class="btn btn-sm btn-camera"><i class="glyphicon glyphicon-camera"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="control-group">
+                <label class="control-label" for="id_produto">Produto</label>
+                <div class="controls">
+                    <div class="col-xs-9 no-padding-left">
+                        <input type="text" id="id_produto" maxlength="15" nome="produto" class="form-control"/>
+                    </div>
+                    <div class="col-sx-3 no-padding-right">
+                        <button ng-click="onClickOpenScannerProd()" class="btn btn-sm btn-camera"><i class="glyphicon glyphicon-camera"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="control-group min-height-form">
+                <label class="control-label" for="id_quant">Quantidade</label>
+                <div class="controls">
+                    <div class="col-xs-9 no-padding-left">
+                        <input type="number" id="id_quant" nome="quant" class="form-control"/>
+                    </div>
+                </div>
+            </div>
+            <div class="control-group">
+                <button class="btn btn-info" ng-click="onClickGravar()"><i class="glyphicon glyphicon-ok"></i> Gravar</button>
+                <button class="btn btn-default" ng-click="onClickVoltar()"><i class="glyphicon glyphicon-arrow-left"></i> Voltar</button>
+            </div>
+            <p><i class="glyphicon glyphicon-info-sign"></i> Digite o endereço, o código do produto e a quantidade para atualizar o saldo.</p>
+        </form>
+    </div>
+</div>

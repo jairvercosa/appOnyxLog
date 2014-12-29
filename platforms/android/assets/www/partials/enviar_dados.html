@@ -1,0 +1,22 @@
+<div class="page-header">
+    <div class="container-fluid">
+        <h4>Enviar Dados</h4>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row-fluid" ng-controller="enviarController">
+        <div class="response_form alert alert-dismissable"><span></span></div>
+        <h3>Saldos De:</h3>
+        <ul>
+            <li>{{ dados.qtdEnd }} - Endereços</li>
+            <li>{{ dados.qtdPro }} - Produtos</li>
+        </ul>
+        <p>Coletados neste dispositivo.</p>
+        </div>
+        <div class="control-group">
+            <button class="btn btn-info" ng-click="onClickEnviar()"><i class="glyphicon glyphicon-ok"></i> Enviar</button>
+            <button class="btn btn-default" ng-click="onClickVoltar()"><i class="glyphicon glyphicon-remove"></i> Voltar</button>
+        </div>
+        <p><i class="glyphicon glyphicon-info-sign"></i> Clique em enviar para que os dados chegem ao servidor da aplicação.</p>
+    </div>
+</div>
